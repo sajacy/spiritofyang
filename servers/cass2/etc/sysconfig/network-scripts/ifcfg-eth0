@@ -1,0 +1,15 @@
+# Internal-GPNET
+DEVICE=eth0
+BOOTPROTO=none
+
+# Should change to match the virtual hardware
+HWADDR=00:15:5D:01:64:0A
+
+ONBOOT=yes
+NETWORK=10.1.1.0
+NETMASK=255.255.255.0
+IPADDR=10.1.1.102
+GATEWAY=10.1.1.1
+DNS1=8.8.8.8
+DNS2=8.8.4.4
+

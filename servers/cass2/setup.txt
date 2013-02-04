@@ -1,0 +1,47 @@
+    1  mount /dev/cdrom /media
+    2  cd /media/RHEL58/
+    3  ls
+    4  ./install-rhel58.sh 
+    5  useradd -G wheel jeff
+    6  passwd jeff
+    7  reboot
+    8  ls
+    9  ifconfig
+   10  ifconfig -a
+   11  ifup eth0
+   12  vim /etc/grub.conf 
+   13  cd /etc/sysconfig/network-scripts/
+   14  ls
+   15  ifconfig -a
+   16  ping google.com
+   17  vim ifcfg-eth0
+   18  vim ifcfg-eth0
+   19  ifup eth0
+   20  ifconfig -a
+   21  cat ifcfg-eth0
+   22  ifup eth0
+   23  vim /etc/grub.conf
+   24  reboot
+   25  vim /etc/sudoers
+   26  exit
+   27   vim /etc/sysconfig/network-scripts/ifcfg-eth0 
+   28  ifdown eth0
+   29  ifup eth0
+   30  hostname
+   31  vim /etc/host.conf
+   32  vim /etc/hosts
+   33  vim /etc/host.conf
+   34  vim /etc/sysconfig/network
+   35  vim /etc/sysconfig/network
+   36  vim /etc/sysconfig/network
+   37  exit
+   38  ls
+   39  chmod install.cassandra.sh 
+   40  chmod 700 install.cassandra.sh 
+   41  rpm
+   42  ./install.cassandra.sh 
+   43  if [ -e java ]; then echo Y; else echo N; fi
+   44  scp
+   45  if [ -e scp ]; then echo Y; else echo N; fi
+   46  exit
+   47  history > history.txt
