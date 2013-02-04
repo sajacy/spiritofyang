@@ -1,0 +1,5 @@
+# Digital Equipment Corporation DECchip 21140 [FasterNet]
+DEVICE=eth0
+BOOTPROTO=dhcp
+HWADDR=00:15:5D:01:64:03
+ONBOOT=yes

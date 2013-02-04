@@ -1,0 +1,298 @@
+    1  adduser jeff
+    2  passwd jeff
+    3  groups
+    4  moduser --help
+    5  usermod --help
+    6  users
+    7  groups
+    8  groups --help
+    9  groups jeff
+   10  groups --help
+   11  usermod --help
+   12  usermod -aG wheel jeff
+   13  users
+   14  users jeff
+   15  groups jeff
+   16  ls
+   17  cd /
+   18  ls
+   19  cd /media
+   20  ls
+   21  mount /dev/cdrom /media
+   22  ls
+   23  ls 
+   24  ls -al
+   25  cd ..
+   26  cd dev
+   27  ls
+   28  ls -al
+   29  ls | less
+   30  automount
+   31  ls
+   32  cd /
+   33  vim /etc/fstab
+   34  cd media
+   35  ls
+   36  cd RHEL58
+   37  ls
+   38  ./install-rhel58.sh 
+   39  reboot
+   40  system-config-display 
+   41  lspci
+   42  shutdown
+   43  shutdown now
+   44  sudoers
+   45  sudoer
+   46  adduser jeff sudo
+   47  vim /etc/sudoers 
+   48  sudo vim /etc/sudoers 
+   49  exit
+   50  exit
+   51  wget
+   52  wget http://nodejs.org/dist/v0.8.15/node-v0.8.15-linux-x64.tar.gz
+   53  nslookup google.com
+   54  ping 192.168.1.1
+   55  ifconfig
+   56  lspci
+   57  cd /media
+   58  ls
+   59  mount
+   60  mount /dev/cdrom-hdc 
+   61  mount /dev/cdrom /media
+   62  cd ..
+   63  ls
+   64  cd media
+   65  ls
+   66  cd rhel58
+   67  ls
+   68  cd RHEL58/
+   69  ls
+   70  ./install-rhel58.sh 
+   71  vim install-rhel58.sh 
+   72  ifconfig -a
+   73  ifup
+   74  ifup eth0
+   75  vim /etc/sysconfig/network
+   76  vim /etc/sysconfig/network-scripts/ifcfg-eth0.bak 
+   77  vim /etc/sysconfig/network-scripts/ifcfg-eth0.bak 
+   78  vim /etc/sysconfig/network-scripts/ifcfg-eth0
+   79  ifup
+   80  ifup eth0
+   81  ping google.com
+   82  wget http://nodejs.org/dist/v0.8.15/node-v0.8.15-linux-x64.tar.gz
+   83  ls
+   84  cd /
+   85  cd ~
+   86  df -h
+   87  wget http://nodejs.org/dist/v0.8.15/node-v0.8.15-linux-x64.tar.gz
+   88  tar xvf node-v0.8.15-linux-x64.tar.gz 
+   89  cd node-v0.8.15-linux-x64
+   90  ls
+   91  vim README.md 
+   92  ls
+   93  cd ..
+   94  mv node-v0.8.15-linux-x64 /usr/local/
+   95  cd /usr/local
+   96  ls
+   97  ln -s nodejs node-v0.8.15-linux-x64/
+   98  ls -al
+   99  cd node-v0.8.15-linux-x64/
+  100  ls
+  101  rm nodejs 
+  102  cd ..
+  103  ln -s node-v0.8.15-linux-x64/ nodejs
+  104  ls -al
+  105  echo $PATH
+  106  cd bin
+  107  ls
+  108  ls
+  109  ls -al
+  110  ln -s node /usr/local/nodejs/bin/node
+  111  ln -s /usr/local/nodejs/bin/node node
+  112  ln -s /usr/local/nodejs/bin/node-waf node-waf
+  113  ln -s /usr/local/nodejs/bin/npm npm
+  114  ls -al
+  115  cd /
+  116  cd 
+  117  node
+  118  ls -al /lib64/libc.so.6 
+  119  yum
+  120  yum update
+  121  vim /etc/grub.conf 
+  122  reboot
+  123  ls
+  124  node
+  125  yum search
+  126  yum list glibc
+  127  node
+  128  yum install tcsh scons gcc-c++ glibc-devel openssl-devel git python
+  129  cd /usr/local/src
+  130  ls
+  131  wget http://nodejs.org/dist/v0.8.15/node-v0.8.15.tar.gz
+  132  tar zxf node-v0.8.15.tar.gz 
+  133  ls -al
+  134  cd node-v0.8.15
+  135  ls
+  136  ./configure
+  137  ./configure 
+  138  vim configure 
+  139  /usr/bin/env python
+  140  cd /usr/local/src
+  141  cd node-v0.8.15
+  142  ls
+  143  configure
+  144  ./configure
+  145  vim configure 
+  146  ./configure
+  147  cd ..
+  148  wget http://www.python.org/ftp/python/2.7.3/Python-2.7.3.tgz
+  149  tar xzf Python-2.7.3.tgz 
+  150  ls -al
+  151  cd Python-2.7.3
+  152  ./configure
+  153  ls
+  154  vim README 
+  155  ./configure --prefix=/usr/local
+  156  make altinstall
+  157  cd /usr/local
+  158  ls
+  159  cd bin
+  160  ls
+  161  ln -s python2.7 python
+  162  ls -al
+  163  /usr/bin/env
+  164  /usr/bin/env python
+  165  cd /usr/local/src
+  166  ls
+  167  cd node-v0.8.15
+  168  ./configure 
+  169  ls
+  170  vim README.md 
+  171  make
+  172  sudo easy_install bz2
+  173  cd ../Python-2.7.3
+  174  ls
+  175  cd ..
+  176  ls
+  177  python
+  178  yum install bzip2
+  179  yum install bzip2-devel
+  180  cd Python-2.7.3
+  181  ./configure --prefix=/usr/local
+  182  make altinstall
+  183  cd ..
+  184  cd node-v0.8.15
+  185  ls
+  186  make
+  187  make install
+  188  cd /usr/local/bin
+  189  ls
+  190  ls -al
+  191  cd /usr/local/lib
+  192  ls
+  193  cd node
+  194  ls
+  195  node
+  196  npm install -g node-inspector
+  197  npm install -g forever
+  198  ifconfig -a
+  199  cd ..
+  200  ls
+  201  cd /usr/local/src
+  202  ls
+  203  wget http://ftp.postgresql.org/pub/source/v9.2.2/postgresql-9.2.2.tar.gz
+  204  tar zxf postgresql-9.2.2.tar.gz 
+  205  cd postgresql-9.2.2
+  206  ls
+  207  ./configure --help
+  208  ./configure --help | less
+  209  yum list uuid
+  210  yum list ossp
+  211  yum list ossp*
+  212  yum search uuid
+  213  yum search ossp
+  214  yum search ossp-uuid
+  215  yum list uuid-ossp
+  216  yum search uuid-ossp
+  217  yum --help
+  218  yum search uuid
+  219  yum install uuid-devel
+  220  yum --help
+  221  yum search ossp
+  222  yum search uid
+  223  locate uuid
+  224  cd /usr/src/
+  225  ls
+  226  cd /usr/local/src
+  227  ls
+  228  wget ftp://ftp.ossp.org/pkg/lib/uuid/uuid-1.6.2.tar.gz
+  229  tar xzf uuid-1.6.2.tar.gz 
+  230  ls
+  231  cd uuid
+  232  ls
+  233  cd uuid-1.6.2
+  234  ls
+  235  vim README
+  236  ls
+  237  vim INSTALL
+  238  ./configure
+  239  vim INSTALL
+  240  make
+  241  vim INSTALL
+  242  make check
+  243  make install
+  244  cd ../postgresql-9.2.2
+  245  ls
+  246  ./configure --help
+  247  ./configure --with-ossp-uuid
+  248  yum install readline-devel
+  249  ./configure --with-ossp-uuid
+  250  cd /usr/local/lib
+  251  ls
+  252  mail
+  253  mail
+  254  ls -al
+  255  echo $LDFLAGS
+  256  pwd
+  257  cd /usr/local/src
+  258  ls
+  259  cd postgresql-9.2.2
+  260  ls
+  261  ./configure --help | less
+  262  ls
+  263  vim Makefile 
+  264  ls -al
+  265  vim configure
+  266  set
+  267  export LDFLAGS="-L/usr/lib"
+  268  ./configure --with-ossp-uuid
+  269  export LDFLAGS="-L/usr/local/lib"
+  270  ./configure --with-ossp-uuid
+  271  make 
+  272  make install
+  273  cd /usr/local/
+  274  ls
+  275  cd pgsql
+  276  ls
+  277  cd bin
+  278  ls
+  279  cd ..
+  280  cd ..
+  281  mv pgsql postgresql-9.2.2
+  282  ln -s pgsql postgresql-9.2.2/
+  283  ls
+  284  ls -al
+  285  cd postgresql-9.2.2/
+  286  ls
+  287  rm pgsql 
+  288  cd ..
+  289  ls
+  290  ln -s postgresql-9.2.2 pgsql
+  291  ls -al
+  292  cd 
+  293  ls -al
+  294  vim .bash_history
+  295  ls
+  296  ls -al
+  297  history
+  298  history > setup.txt

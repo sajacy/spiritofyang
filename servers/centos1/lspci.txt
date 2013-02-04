@@ -1,0 +1,23 @@
+00:00.0 Host bridge: Intel Corporation 440BX/ZX/DX - 82443BX/ZX/DX Host bridge (AGP disabled) (rev 03)
+	Flags: bus master, medium devsel, latency 0
+
+00:07.0 ISA bridge: Intel Corporation 82371AB/EB/MB PIIX4 ISA (rev 01)
+	Subsystem: Microsoft Corporation Device 0000
+	Flags: bus master, medium devsel, latency 0
+
+00:07.1 IDE interface: Intel Corporation 82371AB/EB/MB PIIX4 IDE (rev 01) (prog-if 80 [Master])
+	Flags: bus master, medium devsel, latency 0
+	I/O ports at ffa0 [size=16]
+	Kernel driver in use: PIIX_IDE
+	Kernel modules: ata_piix
+
+00:07.3 Bridge: Intel Corporation 82371AB/EB/MB PIIX4 ACPI (rev 02)
+	Flags: medium devsel, IRQ 9
+	Kernel modules: i2c-piix4
+
+00:08.0 VGA compatible controller: Microsoft Corporation Hyper-V virtual VGA (prog-if 00 [VGA controller])
+	Flags: bus master, fast devsel, latency 0, IRQ 11
+	Memory at f8000000 (32-bit, non-prefetchable) [size=64M]
+	Expansion ROM at <unassigned> [disabled]
+	Kernel modules: hv_timesource
+
